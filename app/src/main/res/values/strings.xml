@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AppAgenda</string>
+    <string name="insira_nome">Insira seu nome</string>
+    <string name="insira_cpf">Insira seu CPF</string>
+    <string name="insira_telefone">Insira seu telefone</string>
+    <string name="btsalvar">SALVAR</string>
+    <string name="mainmenu_search">Consultar</string>
+    <string name="mainmenu_add">Cadastrar</string>
+    <string name="contextmenu_delete">Excluir</string>
+    <string name="contextmenu_update">Atualizar</string>
+</resources>

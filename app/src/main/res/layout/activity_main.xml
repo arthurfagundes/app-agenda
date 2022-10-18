@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAF1A8"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/ednome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="4dp"
+            android:layout_marginTop="100dp"
+            android:hint="@string/insira_nome"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/edcpf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="4dp"
+            android:layout_marginTop="4dp"
+            android:hint="@string/insira_cpf"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/edtelefone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="4dp"
+            android:layout_marginTop="4dp"
+            android:hint="@string/insira_telefone"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/btsalvar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#232F73"
+            android:text="@string/btsalvar"
+            android:onClick="salvar"
+            android:textAppearance="?android:attr/textAppearance" />
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+    <!-- <EditText
+            android:id="@+id/ednome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="4dp"
+            android:layout_marginTop="100dp"
+            android:inputType="textPersonName"
+            android:hint="@string/insira_nome" />
+
+        <EditText
+            android:id="@+id/edcpf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="4dp"
+            android:layout_marginTop="4dp"
+            android:layout_below="@+id/ednome"
+            android:inputType="textPersonName"
+            android:hint="@string/insira_cpf" />
+
+        <EditText
+            android:id="@+id/edtelefone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="4dp"
+            android:layout_marginTop="4dp"
+            android:layout_below="@+id/edcpf"
+            android:inputType="textPersonName"
+            android:hint="@string/insira_telefone" />
+
+        <Button
+            android:id="@+id/btsalvar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="40dp"
+            android:layout_below="@+id/edtelefone"
+            android:text="@string/btsalvar" /> -->
